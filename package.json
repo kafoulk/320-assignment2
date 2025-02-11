@@ -10,11 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/kafoulk/320-assignment2.git"
   },
-  "keywords": [],
-  "author": "Kiersten FOulk",
+  "keywords": ["Journal"],
+  "author": "Kiersten Foulk",
   "license": "ISC",
   "bin": {
-  "journal-log": "./index.js"
+  "journal-log": "./index.js" // CLI Tool
   },
   "bugs": {
     "url": "https://github.com/kafoulk/320-assignment2/issues"
