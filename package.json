@@ -11,8 +11,11 @@
     "url": "git+https://github.com/kafoulk/320-assignment2.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kiersten FOulk",
   "license": "ISC",
+  "bin": {
+  "journal-log": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/kafoulk/320-assignment2/issues"
   },
