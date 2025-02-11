@@ -32,8 +32,8 @@ const logFilePath = path.join(__dirname, "journal.txt");
 
 function logEntry(entry) {
     fs.appendFile(logFilePath, `[${new Date().toISOString()}] ${entry}\n`, (err) => {
-        if (err) console.error("Error writing to file", err);
-        else console.log("Journal entry saved!");
+        if (err) console.error("Error writing to file :( ", err);
+        else console.log("Journal entry saved! :D ");
         rl.close();
     });
 }
