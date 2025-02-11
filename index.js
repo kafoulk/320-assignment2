@@ -1,21 +1,17 @@
 #!/usr/bin/env node
 
+// After Opening this repository:
+// 1. run npm install in console
+// 2. run journal-log in console
+// 3. either type journal entry or receive error response
+// 4. Commit changes to Github
+
+
 const readline = require("readline"); // Readline module for user input
 const fs = require("fs");  // File System module to create files and directories
 const path = require("path"); // Path module to manage and resolve file paths
 
-/**
- * Module Guide
- * This script uses the following core modules:
- * - `fs`: Used to create directories and files
- * - `path`: Helps construct file paths correctly
- * - `readline`: Prompts the user for input
- *
- * Steps to Use the Modules:
- * 1. Use `readline` to ask the user for project details.
- * 2. Use `path` to generate correct file and directory paths.
- * 3. Use `fs` to create project directories and files dynamically.
- */
+//
 
 const rl = readline.createInterface({
     input: process.stdin,
