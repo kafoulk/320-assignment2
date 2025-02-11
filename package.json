@@ -1,0 +1,20 @@
+{
+  "name": "320-assignment2",
+  "version": "1.0.0",
+  "description": "cli-tool module utilizing built-in (core) modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafoulk/320-assignment2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kafoulk/320-assignment2/issues"
+  },
+  "homepage": "https://github.com/kafoulk/320-assignment2#readme"
+}
